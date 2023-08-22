@@ -1,0 +1,169 @@
+INSERT INTO Ward (`Ward_Number`, `Ward_Name`, `Ward_Location`, `Bed_Count`, `Extenstion_Number`) VALUES
+(1, 'Pediatrics', 'East Wing', 20, 'Ext-101'),
+(2, 'Orthopedics', 'West Wing', 15, 'Ext-102'),
+(3, 'Cardiology', 'North Wing', 30, 'Ext-103'),
+(4, 'Neurology', 'South Wing', 25, 'Ext-104'),
+(5, 'Oncology', 'West Wing', 18, 'Ext-105'),
+(6, 'Gynecology', 'East Wing', 12, 'Ext-106'),
+(7, 'Urology', 'North Wing', 10, 'Ext-107'),
+(8, 'ENT', 'South Wing', 8, 'Ext-108'),
+(9, 'Dermatology', 'West Wing', 14, 'Ext-109'),
+(10, 'Psychiatry', 'East Wing', 16, 'Ext-110'),
+(11, 'General Surgery', 'North Wing', 22, 'Ext-111'),
+(12, 'Internal Medicine', 'South Wing', 25, 'Ext-112'),
+(13, 'Nephrology', 'West Wing', 9, 'Ext-113'),
+(14, 'Ophthalmology', 'East Wing', 10, 'Ext-114'),
+(15, 'Pulmonology', 'North Wing', 12, 'Ext-115'),
+(16, 'Rheumatology', 'South Wing', 7, 'Ext-116'),
+(17, 'Endocrinology', 'West Wing', 11, 'Ext-117'),
+(18, 'Hematology', 'East Wing', 8, 'Ext-118'),
+(19, 'Gastroenterology', 'North Wing', 15, 'Ext-119'),
+(20, 'Dentistry', 'South Wing', 6, 'Ext-120');
+
+-------------------------
+
+INSERT INTO Patient (`Patient_Number`, `Patient_Name`, `Age`, `Address`, `Contact_Number`, `Ward_Number`) VALUES
+(1, 'John Doe', 35, '123 Main St', '555-123-4567', 3),
+(2, 'Jane Smith', 45, '456 Oak Ave', '555-987-6543', 1),
+(3, 'Michael Johnson', 28, '789 Elm Rd', '555-555-5555', 2),
+(4, 'Emily Williams', 62, '321 Maple Ln', '555-222-3333', 4),
+(5, 'William Brown', 50, '555 Pine St', '555-444-7890', 5),
+(6, 'Olivia Lee', 19, '777 Birch Ave', '555-777-8888', 6),
+(7, 'James Davis', 72, '888 Cedar Rd', '555-999-1111', 9),
+(8, 'Sophia Garcia', 55, '999 Spruce Ln', '555-333-2222', 8),
+(9, 'Liam Rodriguez', 42, '111 Willow St', '555-222-1111', 11),
+(10, 'Emma Martinez', 30, '222 Palm Ave', '555-444-2222', 12),
+(11, 'Noah Hernandez', 25, '333 Rose Rd', '555-666-5555', 14),
+(12, 'Ava Lopez', 68, '444 Ivy Ave', '555-777-4444', 15),
+(13, 'Sophia Brown', 37, '555 Vine St', '555-999-3333', 16),
+(14, 'Michael Smith', 41, '666 Oak Ave', '555-111-7777', 18),
+(15, 'Olivia Johnson', 29, '777 Elm Rd', '555-555-5555', 20),
+(16, 'William Williams', 52, '888 Maple Ln', '555-222-8888', 19),
+(17, 'Emily Davis', 48, '999 Pine St', '555-444-1111', 17),
+(18, 'James Martinez', 33, '111 Birch Ave', '555-777-3333', 13),
+(19, 'Sophia Rodriguez', 39, '222 Cedar Rd', '555-999-6666', 10),
+(20, 'Ava Garcia', 61, '333 Spruce Ln', '555-333-4444', 7);
+
+------------------------------
+
+INSERT INTO Supplier (`Supplier_Number`, `Supplier_Name`, `Address`, `Email`, `Telephone_Number`, `Fax_Number`) VALUES
+(1, 'ABC Medical Supplies', '123 Main St', 'abc@example.com', '555-123-4567', '555-987-6543'),
+(2, 'XYZ Pharma', '456 Oak Ave', 'xyz@example.com', '555-222-3333', '555-444-7890'),
+(3, 'MediCorp', '789 Elm Rd', 'medicorp@example.com', '555-555-5555', '555-777-8888'),
+(4, 'Global Healthcare', '321 Maple Ln', 'globalhealth@example.com', '555-999-1111', '555-333-2222'),
+(5, 'HealthPlus', '555 Pine St', 'healthplus@example.com', '555-222-1111', '555-444-2222'),
+(6, 'PharmaLink', '777 Birch Ave', 'pharmalink@example.com', '555-666-5555', '555-777-4444'),
+(7, 'MedEquip', '888 Cedar Rd', 'medequip@example.com', '555-999-3333', '555-111-7777'),
+(8, 'Sunrise Medical', '999 Spruce Ln', 'sunrise@example.com', '555-555-5555', '555-222-8888'),
+(9, 'Best Care Pharmaceuticals', '111 Willow St', 'bestcare@example.com', '555-444-1111', '555-444-1111'),
+(10, 'MediSupply', '222 Palm Ave', 'medisupply@example.com', '555-777-7777', '555-999-9999'),
+(11, 'HealthTech', '333 Rose Rd', 'healthtech@example.com', '555-333-3333', '555-111-1111'),
+(12, 'PharmaWorld', '444 Ivy Ave', 'pharmaworld@example.com', '555-222-2222', '555-888-8888'),
+(13, 'Vital Healthcare', '555 Vine St', 'vitalhealth@example.com', '555-666-6666', '555-333-3333'),
+(14, 'MediLife', '666 Oak Ave', 'medilife@example.com', '555-999-9999', '555-666-6666'),
+(15, 'Prime Medical Supplies', '777 Elm Rd', 'prime@example.com', '555-444-4444', '555-222-2222'),
+(16, 'Allied Pharma', '888 Maple Ln', 'alliedpharma@example.com', '555-777-7777', '555-444-4444'),
+(17, 'HealthFirst', '999 Pine St', 'healthfirst@example.com', '555-111-1111', '555-777-7777'),
+(18, 'MediAid', '111 Birch Ave', 'mediaid@example.com', '555-888-8888', '555-999-9999'),
+(19, 'PharmaDirect', '222 Cedar Rd', 'pharmadirect@example.com', '555-333-3333', '555-555-5555'),
+(20, 'United Medical', '333 Spruce Ln', 'unitedmedical@example.com', '555-666-6666', '555-333-3333');
+
+
+----------------------------
+
+INSERT INTO Supply (`Supply_Number`, `Supply_Name`, `Description`, `Dosage`, `Method_Of_Administration`, `Quantity_In_Stock`, `Reorder_Level`, `Cost_Per_Unit`, `Type_Of_Supply`, `Supplier_Number`) VALUES
+(1, 'Paracetamol', 'Pain reliever and fever reducer', '500mg', 'Oral', 1000, 100, 2.5, 'Tablet', 1),
+(2, 'Ibuprofen', 'Nonsteroidal anti-inflammatory drug', '400mg', 'Oral', 800, 150, 3.0, 'Tablet', 2),
+(3, 'Aspirin', 'Pain reliever and antiplatelet', '325mg', 'Oral', 1200, 200, 1.8, 'Tablet', 1),
+(4, 'Amoxicillin', 'Antibiotic', '250mg', 'Oral', 500, 50, 4.2, 'Capsule', 3),
+(5, 'Ciprofloxacin', 'Broad-spectrum antibiotic', '500mg', 'Oral', 300, 30, 6.7, 'Tablet', 2),
+(6, 'Lisinopril', 'ACE inhibitor for hypertension', '10mg', 'Oral', 400, 40, 2.9, 'Tablet', 4),
+(7, 'Metformin', 'Antidiabetic medication', '500mg', 'Oral', 700, 70, 1.5, 'Tablet', 5),
+(8, 'Loratadine', 'Antihistamine', '10mg', 'Oral', 600, 60, 3.8, 'Tablet', 6),
+(9, 'Fluoxetine', 'Selective serotonin reuptake inhibitor', '20mg', 'Oral', 250, 25, 5.1, 'Capsule', 7),
+(10, 'Simvastatin', 'HMG-CoA reductase inhibitor', '40mg', 'Oral', 300, 30, 4.9, 'Tablet', 8),
+(11, 'Albuterol', 'Bronchodilator', '2mg', 'Inhalation', 200, 20, 10.5, 'Inhaler', 9),
+(12, 'Insulin Lispro', 'Rapid-acting insulin', '100 units/mL', 'Subcutaneous', 150, 15, 12.2, 'Vial', 10),
+(13, 'Omeprazole', 'Proton pump inhibitor', '20mg', 'Oral', 400, 40, 3.7, 'Capsule', 12),
+(14, 'Atorvastatin', 'HMG-CoA reductase inhibitor', '20mg', 'Oral', 500, 50, 6.0, 'Tablet', 11),
+(15, 'Prednisone', 'Corticosteroid', '5mg', 'Oral', 300, 30, 2.4, 'Tablet', 14),
+(16, 'Escitalopram', 'Selective serotonin reuptake inhibitor', '10mg', 'Oral', 200, 20, 4.8, 'Tablet', 13),
+(17, 'Warfarin', 'Anticoagulant', '5mg', 'Oral', 600, 60, 1.9, 'Tablet', 17),
+(18, 'Metoprolol', 'Beta-blocker for hypertension', '25mg', 'Oral', 450, 45, 2.3, 'Tablet', 15),
+(19, 'Losartan', 'Angiotensin II receptor blocker', '50mg', 'Oral', 350, 35, 3.5, 'Tablet', 18),
+(20, 'Hydrochlorothiazide', 'Diuretic', '12.5mg', 'Oral', 500, 50, 2.7, 'Tablet', 19);
+
+----------------------------
+
+INSERT INTO Medication (`Medication_Number`, `Medication_Name`, `Dosage`, `Method_Of_Administration`, `Start_Date`, `End_Date`, `Patient_Number`, `Drug_Number`) VALUES
+(1, 'Pain Relief', '500mg', 'Oral', '2023-07-01', '2023-07-10', 1, 1),
+(2, 'Fever Reducer', '400mg', 'Oral', '2023-07-03', '2023-07-08', 2, 2),
+(3, 'Antibiotic', '250mg', 'Oral', '2023-07-05', '2023-07-15', 3, 4),
+(4, 'Allergy Relief', '10mg', 'Oral', '2023-07-10', '2023-07-20', 4, 8),
+(5, 'Anti-inflammatory', '20mg', 'Oral', '2023-07-12', '2023-07-25', 5, 7),
+(6, 'Asthma Control', '2mg', 'Inhalation', '2023-07-15', '2023-07-30', 6, 11),
+(7, 'Antidiabetic', '500mg', 'Oral', '2023-07-20', '2023-08-05', 7, 12),
+(8, 'Antidepressant', '20mg', 'Oral', '2023-07-22', '2023-08-15', 8, 16),
+(9, 'Blood Pressure Control', '10mg', 'Oral', '2023-07-25', '2023-08-10', 9, 6),
+(10, 'Cholesterol Lowering', '40mg', 'Oral', '2023-07-28', '2023-08-18', 10, 10),
+(11, 'Antiplatelet', '325mg', 'Oral', '2023-08-01', '2023-08-20', 11, 3),
+(12, 'Anticoagulant', '5mg', 'Oral', '2023-08-05', '2023-08-25', 12, 17),
+(13, 'Bronchodilator', '2mg', 'Inhalation', '2023-08-10', '2023-08-28', 13, 11),
+(14, 'Insulin Therapy', '100 units/mL', 'Subcutaneous', '2023-08-15', '2023-09-05', 14, 12),
+(15, 'Heart Medication', '25mg', 'Oral', '2023-08-20', '2023-09-08', 15, 18),
+(16, 'Diuretic', '12.5mg', 'Oral', '2023-08-25', '2023-09-10', 16, 20),
+(17, 'Pain Relief', '500mg', 'Oral', '2023-08-28', '2023-09-15', 17, 1),
+(18, 'Antibiotic', '500mg', 'Oral', '2023-09-01', '2023-09-18', 18, 5),
+(19, 'Anti-inflammatory', '20mg', 'Oral', '2023-09-05', '2023-09-20', 19, 7),
+(20, 'Antidepressant', '10mg', 'Oral', '2023-09-10', '2023-09-25', 20, 16);
+
+
+
+-----------------------------------
+
+INSERT INTO Staff (`Staff_Number`, `Staff_Name`, `Qualification`, `Past_Experience`, `Ward_Number`) VALUES
+(1, 'John Smith', 'Registered Nurse', '5 years at ABC Hospital', 1),
+(2, 'Emily Johnson', 'Licensed Practical Nurse', '3 years at XYZ Clinic', 2),
+(3, 'Michael Williams', 'Medical Doctor', '10 years at City Hospital', 3),
+(4, 'Sophia Brown', 'Certified Nursing Assistant', '2 years at Community Care Center', 4),
+(5, 'James Davis', 'Medical Technologist', '7 years at Regional Medical Center', 5),
+(6, 'Olivia Garcia', 'Physician Assistant', '4 years at HealthPlus Clinic', 6),
+(7, 'William Martinez', 'Pharmacist', '6 years at MediCorp Pharmacy', 7),
+(8, 'Emma Rodriguez', 'Physical Therapist', '9 years at Sports Rehab Center', 8),
+(9, 'Liam Hernandez', 'Occupational Therapist', '5 years at Senior Care Facility', 9),
+(10, 'Ava Lopez', 'Speech-Language Pathologist', '3 years at Speech Center', 10),
+(11, 'Noah Rivera', 'Medical Doctor', '8 years at County Hospital', 11),
+(12, 'Isabella Turner', 'Registered Nurse', '6 years at Medical Center', 12),
+(13, 'Mason Mitchell', 'Licensed Practical Nurse', '4 years at Home Healthcare Agency', 13),
+(14, 'Sophia Phillips', 'Certified Nursing Assistant', '2 years at Elderly Care Home', 14),
+(15, 'Alexander Campbell', 'Medical Technologist', '5 years at Diagnostic Lab', 15),
+(16, 'Mia Scott', 'Physician Assistant', '3 years at Family Practice Clinic', 16),
+(17, 'Ethan Adams', 'Pharmacist', '7 years at HealthMart Pharmacy', 17),
+(18, 'Abigail Hernandez', 'Physical Therapist', '4 years at Sports Medicine Center', 18),
+(19, 'Jayden Wood', 'Occupational Therapist', '6 years at Rehabilitation Hospital', 19),
+(20, 'Ella Foster', 'Speech-Language Pathologist', '5 years at Language Development Center', 20);
+
+
+-------------------------
+
+INSERT INTO `green_valley`.`Requisition` (`Requisition_Number`, `Quantity_Required`, `Date_Of_Order`, `Delivery_Date`, `Charge_Nurse_Signature`, `Staff_Number`, `Ward_Number`, `Supply_Number`) VALUES
+(1, 50, '2023-07-01', '2023-07-05', 'CN-Sign-001', 1, 1, 1),
+(2, 30, '2023-07-02', '2023-07-06', 'CN-Sign-002', 2, 2, 2),
+(3, 40, '2023-07-03', '2023-07-07', 'CN-Sign-003', 3, 3, 3),
+(4, 25, '2023-07-04', '2023-07-08', 'CN-Sign-004', 4, 4, 4),
+(5, 60, '2023-07-05', '2023-07-09', 'CN-Sign-005', 5, 5, 5),
+(6, 35, '2023-07-06', '2023-07-10', 'CN-Sign-006', 6, 6, 6),
+(7, 20, '2023-07-07', '2023-07-11', 'CN-Sign-007', 7, 7, 7),
+(8, 45, '2023-07-08', '2023-07-12', 'CN-Sign-008', 8, 8, 8),
+(9, 55, '2023-07-09', '2023-07-13', 'CN-Sign-009', 9, 9, 9),
+(10, 70, '2023-07-10', '2023-07-14', 'CN-Sign-010', 10, 10, 10),
+(11, 28, '2023-07-11', '2023-07-15', 'CN-Sign-011', 11, 11, 11),
+(12, 38, '2023-07-12', '2023-07-16', 'CN-Sign-012', 12, 12, 12),
+(13, 42, '2023-07-13', '2023-07-17', 'CN-Sign-013', 13, 13, 13),
+(14, 32, '2023-07-14', '2023-07-18', 'CN-Sign-014', 14, 14, 14),
+(15, 48, '2023-07-15', '2023-07-19', 'CN-Sign-015', 15, 15, 15),
+(16, 52, '2023-07-16', '2023-07-20', 'CN-Sign-016', 16, 16, 16),
+(17, 18, '2023-07-17', '2023-07-21', 'CN-Sign-017', 17, 17, 17),
+(18, 63, '2023-07-18', '2023-07-22', 'CN-Sign-018', 18, 18, 18),
+(19, 24, '2023-07-19', '2023-07-23', 'CN-Sign-019', 19, 19, 19),
+(20, 36, '2023-07-20', '2023-07-24', 'CN-Sign-020', 20, 20, 20);
